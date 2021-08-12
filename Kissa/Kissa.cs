@@ -17,6 +17,11 @@ namespace Kissa
 			this.AsetaNimi(nimi);
 		}
 
+		public void Kehraa()
+        {
+			Console.WriteLine("hrrrrr");
+        }
+
 		// Override functions
 		public override string ToString()
 		{

@@ -69,5 +69,12 @@ namespace ClassLibrary
 		{
 			return this.onLihanSyoja;
 		}
+		/// <summary>
+		/// Palauttaa onko eläin lihan syöjä string muodossa.
+		/// </summary>
+		public string OnkoLihanSyoja()
+		{
+			return this.onLihanSyoja ? "Lihan syöjä" : "Ei ole lihan syöjä";
+		}
 	}
 }

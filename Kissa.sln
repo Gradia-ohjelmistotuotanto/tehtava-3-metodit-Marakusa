@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ika", "Ika\Ika.csproj", "{2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{06CF1C73-3D36-410C-A091-2EBAEECB253E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Periytyminen", "Periytyminen\Periytyminen.csproj", "{081849CB-8748-4B87-BD10-4E640824BE3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{06CF1C73-3D36-410C-A091-2EBAEECB253E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06CF1C73-3D36-410C-A091-2EBAEECB253E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06CF1C73-3D36-410C-A091-2EBAEECB253E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{081849CB-8748-4B87-BD10-4E640824BE3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081849CB-8748-4B87-BD10-4E640824BE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081849CB-8748-4B87-BD10-4E640824BE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081849CB-8748-4B87-BD10-4E640824BE3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
