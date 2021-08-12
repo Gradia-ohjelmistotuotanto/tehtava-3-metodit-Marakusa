@@ -8,6 +8,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Kissa\Kissa.csproj" />
     <ProjectReference Include="..\Koira\Koira.csproj" />
+    <ProjectReference Include="..\Linnut\Linnut.csproj" />
+    <ProjectReference Include="..\Nisakkaat\Nisakkaat.csproj" />
   </ItemGroup>
 
 </Project>

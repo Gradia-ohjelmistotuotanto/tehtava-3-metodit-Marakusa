@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Koira
 {
-	public class Koira : Elain
+	public class Koira : Nisakkaat.Nisakkaat
 	{
 		public Koira()
 		{
@@ -15,6 +15,11 @@ namespace Koira
 		{
 			this.AsetaIka(ika);
 			this.AsetaNimi(nimi);
+		}
+
+		public override void Aantele()
+		{
+			Console.WriteLine("Hau!");
 		}
 
 		// Override functions

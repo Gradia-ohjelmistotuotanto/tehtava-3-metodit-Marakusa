@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/ClassLibrary.dll": {}
         }
+      },
+      "Nisakkaat/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ClassLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Nisakkaat.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Nisakkaat.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../ClassLibrary/ClassLibrary.csproj",
       "msbuildProject": "../ClassLibrary/ClassLibrary.csproj"
+    },
+    "Nisakkaat/1.0.0": {
+      "type": "project",
+      "path": "../Nisakkaat/Nisakkaat.csproj",
+      "msbuildProject": "../Nisakkaat/Nisakkaat.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ClassLibrary >= 1.0.0"
+      "ClassLibrary >= 1.0.0",
+      "Nisakkaat >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -56,6 +75,9 @@
           "projectReferences": {
             "C:\\Users\\skype\\source\\repos\\tehtava-3-metodit-Marakusa\\ClassLibrary\\ClassLibrary.csproj": {
               "projectPath": "C:\\Users\\skype\\source\\repos\\tehtava-3-metodit-Marakusa\\ClassLibrary\\ClassLibrary.csproj"
+            },
+            "C:\\Users\\skype\\source\\repos\\tehtava-3-metodit-Marakusa\\Nisakkaat\\Nisakkaat.csproj": {
+              "projectPath": "C:\\Users\\skype\\source\\repos\\tehtava-3-metodit-Marakusa\\Nisakkaat\\Nisakkaat.csproj"
             }
           }
         }

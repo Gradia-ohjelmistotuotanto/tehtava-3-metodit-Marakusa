@@ -2,18 +2,26 @@
 
 namespace ClassLibrary
 {
-    public class Elain
+    public abstract class Elain
     {
 		private int ika = 0;
         private string nimi;
 		private bool onLihanSyoja = false;
 
 		/// <summary>
+		/// Laita eläin äännähtämään
+		/// </summary>
+		public virtual void Aantele()
+		{
+			Console.WriteLine("Umph!");
+		}
+
+		/// <summary>
 		/// Asettaa eläimelle uuden nimen.
 		/// </summary>
 		/// <param name="nimi">Kissan uusi nimi.</param>
 		/// <returns></returns>
-		public bool AsetaNimi(string nimi)
+			public bool AsetaNimi(string nimi)
 		{
 			this.nimi = nimi;
 			return true;

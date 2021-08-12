@@ -14,7 +14,7 @@ namespace Periytyminen
 
             Console.WriteLine($"{kissa.PalautaNimi()}, {kissa.PalautaIka()}, {kissa.OnkoLihanSyoja()}");
 
-            kissa.Kehraa();
+            kissa.Aantele();
 
 
             Koira.Koira koira = new Koira.Koira();
@@ -24,6 +24,8 @@ namespace Periytyminen
             koira.AsetaOnLihanSyoja(true);
 
             Console.WriteLine($"{koira.PalautaNimi()}, {koira.PalautaIka()}, {koira.OnkoLihanSyoja()}");
+
+            koira.Aantele();
 
 
             Console.ReadKey();

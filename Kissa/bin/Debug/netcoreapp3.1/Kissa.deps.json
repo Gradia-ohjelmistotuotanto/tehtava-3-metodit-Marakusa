@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "Kissa/1.0.0": {
         "dependencies": {
-          "ClassLibrary": "1.0.0"
+          "ClassLibrary": "1.0.0",
+          "Nisakkaat": "1.0.0"
         },
         "runtime": {
           "Kissa.dll": {}
@@ -17,6 +18,14 @@
       "ClassLibrary/1.0.0": {
         "runtime": {
           "ClassLibrary.dll": {}
+        }
+      },
+      "Nisakkaat/1.0.0": {
+        "dependencies": {
+          "ClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "Nisakkaat.dll": {}
         }
       }
     }
@@ -28,6 +37,11 @@
       "sha512": ""
     },
     "ClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nisakkaat/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

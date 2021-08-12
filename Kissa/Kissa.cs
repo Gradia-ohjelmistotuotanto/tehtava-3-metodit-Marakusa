@@ -5,7 +5,7 @@ using ClassLibrary;
 
 namespace Kissa
 {
-	public class Kissa : Elain
+	public class Kissa : Nisakkaat.Nisakkaat
 	{
 		public Kissa()
 		{
@@ -18,9 +18,14 @@ namespace Kissa
 		}
 
 		public void Kehraa()
-        {
+		{
 			Console.WriteLine("hrrrrr");
-        }
+		}
+
+		public override void Aantele()
+		{
+			Console.WriteLine("Miau!");
+		}
 
 		// Override functions
 		public override string ToString()
