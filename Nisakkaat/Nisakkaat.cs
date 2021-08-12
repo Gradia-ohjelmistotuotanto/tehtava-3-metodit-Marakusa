@@ -8,16 +8,16 @@ namespace Nisakkaat
     {
         private bool merinisäkäs = false;
 
-        public void OnkoMerinisäkäs(bool merinisäkäs)
+        public void AsetaMerinisäkäs(bool merinisäkäs)
         {
             this.merinisäkäs = merinisäkäs;
         }
 
-        public bool PalautaOnkoMerinisäkäs()
+        public bool PalautaMerinisäkäs()
         {
             return this.merinisäkäs;
         }
-        public string PalautaMerinisäkäs()
+        public string PalautaOnkoMerinisäkäs()
         {
             return this.merinisäkäs ? "Merinisäkäs" : "Ei ole merinisäkäs";
         }

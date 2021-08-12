@@ -12,9 +12,9 @@ namespace Periytyminen
             kissa.AsetaIka(6);
             kissa.AsetaOnLihanSyoja(true);
 
-            kissa.OnkoMerinisäkäs(false);
+            kissa.AsetaMerinisäkäs(false);
 
-            Console.WriteLine($"{kissa.PalautaNimi()}, {kissa.PalautaIka()}, {kissa.OnkoLihanSyoja()}, {kissa.PalautaMerinisäkäs()}");
+            Console.WriteLine($"{kissa.PalautaNimi()}, {kissa.PalautaIka()}, {kissa.OnkoLihanSyoja()}, {kissa.PalautaOnkoMerinisäkäs()}");
 
             kissa.Aantele();
 
@@ -25,9 +25,9 @@ namespace Periytyminen
             koira.AsetaIka(9);
             koira.AsetaOnLihanSyoja(true);
 
-            koira.OnkoMerinisäkäs(false);
+            koira.AsetaMerinisäkäs(false);
 
-            Console.WriteLine($"{koira.PalautaNimi()}, {koira.PalautaIka()}, {koira.OnkoLihanSyoja()}, {koira.PalautaMerinisäkäs()}");
+            Console.WriteLine($"{koira.PalautaNimi()}, {koira.PalautaIka()}, {koira.OnkoLihanSyoja()}, {koira.PalautaOnkoMerinisäkäs()}");
 
             koira.Aantele();
 
