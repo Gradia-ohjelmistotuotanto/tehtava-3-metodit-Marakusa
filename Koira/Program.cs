@@ -7,9 +7,9 @@ namespace Koira
         static void Main(string[] args)
         {
             Koira koira = new Koira();
-            Console.WriteLine($"Nimen vaihto: {koira.AsetaKoiranNimi("Max")}");
+            Console.WriteLine($"Nimen vaihto: {koira.AsetaNimi("Max")}");
             Console.WriteLine(koira);
-            Console.WriteLine($"Nimen vaihto: {koira.AsetaKoiranNimi("Musti")}");
+            Console.WriteLine($"Nimen vaihto: {koira.AsetaNimi("Musti")}");
             Console.WriteLine(koira);
 
             Console.ReadKey();

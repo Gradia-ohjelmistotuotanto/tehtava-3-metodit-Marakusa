@@ -9,9 +9,9 @@ namespace Kissa
             Kissa katti = new Kissa();
 
             Console.WriteLine(katti);
-            Console.WriteLine($"Nimen vaihto: {katti.AsetaKissanNimi("Anneli")}");
+            Console.WriteLine($"Nimen vaihto: {katti.AsetaNimi("Anneli")}");
             Console.WriteLine(katti);
-            Console.WriteLine($"Nimen vaihto: {katti.AsetaKissanNimi("Hilda")}");
+            Console.WriteLine($"Nimen vaihto: {katti.AsetaNimi("Hilda")}");
             Console.WriteLine(katti);
 
             Console.ReadKey();

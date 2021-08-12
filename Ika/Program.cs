@@ -13,11 +13,11 @@ namespace Ika
 
                 Random random = new Random();
 
-                koira.AsetaKoiranIka(random.Next(1, 15));
-                kissa.AsetaKissanIka(random.Next(1, 10));
+                koira.AsetaIka(random.Next(1, 15));
+                kissa.AsetaIka(random.Next(1, 10));
 
-                int koiranIka = koira.PalautaKoiranIka();
-                int kissanIka = kissa.PalautaKissanIka();
+                int koiranIka = koira.PalautaIka();
+                int kissanIka = kissa.PalautaIka();
 
                 Console.WriteLine($"Koira on {koiranIka} vuotta, Kissa on {kissanIka} vuotta");
 
