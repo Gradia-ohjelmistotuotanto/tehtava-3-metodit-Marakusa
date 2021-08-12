@@ -25,7 +25,7 @@ namespace Koira
 		// Override functions
 		public override string ToString()
 		{
-			return $"Koira: {this.PalautaNimi()}, ikä {this.PalautaIka()}.";
+			return $"Koira: {this.PalautaNimi()}, ikä {this.PalautaIka()}, {(this.PalautaOnLihanSyoja() ? "Lihansyöjä" : "Ei ole lihansyöjä")}, {this.PalautaOnkoMerinisakas()}.";
 		}
 	}
 }

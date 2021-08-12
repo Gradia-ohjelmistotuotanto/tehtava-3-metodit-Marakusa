@@ -12,7 +12,7 @@ namespace Papukaija
 		// Override functions
 		public override string ToString()
 		{
-			return $"Papukaija: {this.PalautaNimi()}, ikä {this.PalautaIka()}.";
+			return $"Papukaija: {this.PalautaNimi()}, ikä {this.PalautaIka()}, {(this.PalautaOnLihanSyoja() ? "Lihansyöjä" : "Ei ole lihansyöjä")}.";
 		}
 	}
 }

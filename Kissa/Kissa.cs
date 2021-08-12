@@ -30,7 +30,7 @@ namespace Kissa
 		// Override functions
 		public override string ToString()
 		{
-			return $"Kissa: {this.PalautaNimi()}, ikä {this.PalautaIka()}.";
+			return $"Kissa: {this.PalautaNimi()}, ikä {this.PalautaIka()}, {(this.PalautaOnLihanSyoja() ? "Lihansyöjä" : "Ei ole lihansyöjä")}, {this.PalautaOnkoMerinisakas()}.";
 		}
 	}
 }
