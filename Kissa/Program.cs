@@ -8,11 +8,11 @@ namespace Kissa
         {
             Kissa katti = new Kissa();
 
-            Console.WriteLine($"Kissan nimi: {katti.nimi}");
+            Console.WriteLine(katti);
             Console.WriteLine($"Nimen vaihto: {katti.AsetaKissanNimi("Anneli")}");
-            Console.WriteLine($"Kissan nimi: {katti.nimi}");
+            Console.WriteLine(katti);
             Console.WriteLine($"Nimen vaihto: {katti.AsetaKissanNimi("Hilda")}");
-            Console.WriteLine($"Kissan nimi: {katti.nimi}");
+            Console.WriteLine(katti);
 
             Console.ReadKey();
         }

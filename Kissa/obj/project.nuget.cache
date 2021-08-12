@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q5t8g7cUoVZESKREyQs39hSr5p9tDZk0tELjutbxe19HvKeNAXszoWd7hl4/7nGkJvT4UpuFminYOwgyi2IDxg==",
+  "dgSpecHash": "2A4x1g8he89mrmJSd0aU3tE+2VOw2ySeG9PsRYYN96Ef3Yn37tU+E0s4hCSurE6FBDrUk6tMzktf3Ib1zAXuqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\skype\\source\\repos\\Kissa\\Kissa\\Kissa.csproj",
+  "projectFilePath": "C:\\Users\\skype\\source\\repos\\tehtava-3-metodit-Marakusa\\Kissa\\Kissa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\skype\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
   ],

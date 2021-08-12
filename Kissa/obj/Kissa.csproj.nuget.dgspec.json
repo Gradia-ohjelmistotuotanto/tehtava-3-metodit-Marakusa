@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skype\\source\\repos\\Kissa\\Kissa\\Kissa.csproj": {}
+    "C:\\Users\\skype\\source\\repos\\tehtava-3-metodit-Marakusa\\Kissa\\Kissa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skype\\source\\repos\\Kissa\\Kissa\\Kissa.csproj": {
+    "C:\\Users\\skype\\source\\repos\\tehtava-3-metodit-Marakusa\\Kissa\\Kissa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skype\\source\\repos\\Kissa\\Kissa\\Kissa.csproj",
+        "projectUniqueName": "C:\\Users\\skype\\source\\repos\\tehtava-3-metodit-Marakusa\\Kissa\\Kissa.csproj",
         "projectName": "Kissa",
-        "projectPath": "C:\\Users\\skype\\source\\repos\\Kissa\\Kissa\\Kissa.csproj",
+        "projectPath": "C:\\Users\\skype\\source\\repos\\tehtava-3-metodit-Marakusa\\Kissa\\Kissa.csproj",
         "packagesPath": "C:\\Users\\skype\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skype\\source\\repos\\Kissa\\Kissa\\obj\\",
+        "outputPath": "C:\\Users\\skype\\source\\repos\\tehtava-3-metodit-Marakusa\\Kissa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\skype\\AppData\\Roaming\\NuGet\\NuGet.Config",

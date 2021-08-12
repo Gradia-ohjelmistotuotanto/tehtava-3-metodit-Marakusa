@@ -45,5 +45,11 @@ namespace Kissa
 
 			return false;
 		}
+
+		// Override functions
+		public override string ToString()
+		{
+			return $"Kissa: {this.nimi}, ikä {this.ika}.";
+		}
 	}
 }
