@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kissa", "Kissa\Kissa.csproj", "{6EA3A09F-7350-471E-A1C7-72A4EB459257}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kissa", "Kissa\Kissa.csproj", "{6EA3A09F-7350-471E-A1C7-72A4EB459257}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koira", "Koira\Koira.csproj", "{1258EF1A-C969-4BA9-BBFD-DDCF895CF6E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ika", "Ika\Ika.csproj", "{2677F4BD-BAB2-495E-834D-6BAB6DA9B6DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6EA3A09F-7350-471E-A1C7-72A4EB459257}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EA3A09F-7350-471E-A1C7-72A4EB459257}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EA3A09F-7350-471E-A1C7-72A4EB459257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1258EF1A-C969-4BA9-BBFD-DDCF895CF6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1258EF1A-C969-4BA9-BBFD-DDCF895CF6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1258EF1A-C969-4BA9-BBFD-DDCF895CF6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1258EF1A-C969-4BA9-BBFD-DDCF895CF6E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2677F4BD-BAB2-495E-834D-6BAB6DA9B6DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2677F4BD-BAB2-495E-834D-6BAB6DA9B6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2677F4BD-BAB2-495E-834D-6BAB6DA9B6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2677F4BD-BAB2-495E-834D-6BAB6DA9B6DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

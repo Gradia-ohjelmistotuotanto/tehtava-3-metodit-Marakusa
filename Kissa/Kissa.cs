@@ -9,6 +9,7 @@ namespace Kissa
 		private int ika;
 		public string nimi;
 
+
 		public Kissa()
 		{
 			this.ika = 0;
@@ -44,6 +45,11 @@ namespace Kissa
 			}
 
 			return false;
+		}
+
+		public int PalautaKissanIka()
+		{
+			return ika;
 		}
 
 		// Override functions
