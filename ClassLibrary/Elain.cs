@@ -21,12 +21,11 @@ namespace ClassLibrary
 		/// </summary>
 		/// <param name="nimi">Kissan uusi nimi.</param>
 		/// <returns></returns>
-			public bool AsetaNimi(string nimi)
+		public bool AsetaNimi(string nimi)
 		{
 			this.nimi = nimi;
 			return true;
 		}
-
 		/// <summary>
 		/// Asettaa eläimelle uuden iän.
 		/// </summary>
@@ -42,7 +41,6 @@ namespace ClassLibrary
 
 			return false;
 		}
-
 		/// <summary>
 		/// Asettaa onko eläin lihan syöjä.
 		/// </summary>
@@ -61,7 +59,6 @@ namespace ClassLibrary
 		{
 			return this.ika;
 		}
-
 		/// <summary>
 		/// Palauttaa eläimen nimen.
 		/// </summary>
@@ -69,7 +66,6 @@ namespace ClassLibrary
 		{
 			return this.nimi;
 		}
-
 		/// <summary>
 		/// Palauttaa onko eläin lihan syöjä.
 		/// </summary>
