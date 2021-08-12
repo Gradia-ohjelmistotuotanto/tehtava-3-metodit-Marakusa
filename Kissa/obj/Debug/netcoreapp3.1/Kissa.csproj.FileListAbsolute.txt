@@ -1,0 +1,13 @@
+C:\Users\skype\source\repos\Kissa\Kissa\bin\Debug\netcoreapp3.1\Kissa.exe
+C:\Users\skype\source\repos\Kissa\Kissa\bin\Debug\netcoreapp3.1\Kissa.deps.json
+C:\Users\skype\source\repos\Kissa\Kissa\bin\Debug\netcoreapp3.1\Kissa.runtimeconfig.json
+C:\Users\skype\source\repos\Kissa\Kissa\bin\Debug\netcoreapp3.1\Kissa.runtimeconfig.dev.json
+C:\Users\skype\source\repos\Kissa\Kissa\bin\Debug\netcoreapp3.1\Kissa.dll
+C:\Users\skype\source\repos\Kissa\Kissa\bin\Debug\netcoreapp3.1\Kissa.pdb
+C:\Users\skype\source\repos\Kissa\Kissa\obj\Debug\netcoreapp3.1\Kissa.csprojAssemblyReference.cache
+C:\Users\skype\source\repos\Kissa\Kissa\obj\Debug\netcoreapp3.1\Kissa.AssemblyInfoInputs.cache
+C:\Users\skype\source\repos\Kissa\Kissa\obj\Debug\netcoreapp3.1\Kissa.AssemblyInfo.cs
+C:\Users\skype\source\repos\Kissa\Kissa\obj\Debug\netcoreapp3.1\Kissa.csproj.CoreCompileInputs.cache
+C:\Users\skype\source\repos\Kissa\Kissa\obj\Debug\netcoreapp3.1\Kissa.dll
+C:\Users\skype\source\repos\Kissa\Kissa\obj\Debug\netcoreapp3.1\Kissa.pdb
+C:\Users\skype\source\repos\Kissa\Kissa\obj\Debug\netcoreapp3.1\Kissa.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q5t8g7cUoVZESKREyQs39hSr5p9tDZk0tELjutbxe19HvKeNAXszoWd7hl4/7nGkJvT4UpuFminYOwgyi2IDxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\skype\\source\\repos\\Kissa\\Kissa\\Kissa.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\skype\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.14\\microsoft.netcore.app.host.win-x64.3.1.14.nupkg.sha512"
+  ],
+  "logs": []
+}

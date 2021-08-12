@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\skype\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\skype\\.nuget\\packages"
+    ]
+  }
+}
