@@ -6,20 +6,20 @@ namespace Nisakkaat
 {
     public abstract class Nisakkaat : Elain
     {
-        private bool merinisäkäs = false;
+        private bool merinisakas = false;
 
-        public void AsetaMerinisäkäs(bool merinisäkäs)
+        public void AsetaMerinisakas(bool merinisakas)
         {
-            this.merinisäkäs = merinisäkäs;
+            this.merinisakas = merinisakas;
         }
 
-        public bool PalautaMerinisäkäs()
+        public bool PalautaMerinisakas()
         {
-            return this.merinisäkäs;
+            return this.merinisakas;
         }
-        public string PalautaOnkoMerinisäkäs()
+        public string PalautaOnkoMerinisakas()
         {
-            return this.merinisäkäs ? "Merinisäkäs" : "Ei ole merinisäkäs";
+            return this.merinisakas ? "Merinisäkäs" : "Ei ole merinisäkäs";
         }
     }
 }
