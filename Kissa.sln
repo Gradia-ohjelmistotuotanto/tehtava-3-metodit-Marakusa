@@ -7,24 +7,26 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kissa", "Kissa\Kissa.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Koira", "Koira\Koira.csproj", "{1258EF1A-C969-4BA9-BBFD-DDCF895CF6E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ika", "Ika\Ika.csproj", "{2677F4BD-BAB2-495E-834D-6BAB6DA9B6DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ika", "Ika\Ika.csproj", "{2677F4BD-BAB2-495E-834D-6BAB6DA9B6DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{06CF1C73-3D36-410C-A091-2EBAEECB253E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{06CF1C73-3D36-410C-A091-2EBAEECB253E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Periytyminen", "Periytyminen\Periytyminen.csproj", "{081849CB-8748-4B87-BD10-4E640824BE3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Periytyminen", "Periytyminen\Periytyminen.csproj", "{081849CB-8748-4B87-BD10-4E640824BE3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nisakkaat", "Nisakkaat\Nisakkaat.csproj", "{FAB08EA6-EB7A-480A-9239-10933C3B5B98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nisakkaat", "Nisakkaat\Nisakkaat.csproj", "{FAB08EA6-EB7A-480A-9239-10933C3B5B98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linnut", "Linnut\Linnut.csproj", "{116D1E4E-FB91-461E-8EFD-08F3542CC552}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linnut", "Linnut\Linnut.csproj", "{116D1E4E-FB91-461E-8EFD-08F3542CC552}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Papukaija", "Papukaija\Papukaija.csproj", "{6DCFBE6F-411A-474B-818B-8B028D95A7A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Papukaija", "Papukaija\Papukaija.csproj", "{6DCFBE6F-411A-474B-818B-8B028D95A7A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83F674D6-84A5-4A98-9D31-15AB37CE985C}"
 	ProjectSection(SolutionItems) = preProject
 		UML-Diagram.png = UML-Diagram.png
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OliotListaan", "OliotListaan\OliotListaan.csproj", "{EFD5BD5C-A842-498F-BF39-83514FEFA4E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OliotListaan", "OliotListaan\OliotListaan.csproj", "{EFD5BD5C-A842-498F-BF39-83514FEFA4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hevonen", "Hevonen\Hevonen.csproj", "{C51F2A41-FD73-4374-8620-7CD7007150CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +70,10 @@ Global
 		{EFD5BD5C-A842-498F-BF39-83514FEFA4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFD5BD5C-A842-498F-BF39-83514FEFA4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFD5BD5C-A842-498F-BF39-83514FEFA4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51F2A41-FD73-4374-8620-7CD7007150CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51F2A41-FD73-4374-8620-7CD7007150CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51F2A41-FD73-4374-8620-7CD7007150CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51F2A41-FD73-4374-8620-7CD7007150CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
