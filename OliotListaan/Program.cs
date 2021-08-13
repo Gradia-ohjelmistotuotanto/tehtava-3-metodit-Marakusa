@@ -8,10 +8,6 @@ namespace OliotListaan
     {
         static void Main(string[] args)
         {
-            string[] koiranNimet = new string[] { "Musti", "Hilda", "Max", "Pontus", "Papu", "Huntti", "Leo", "Neela", "Rekku" };
-            string[] kissanNimet = new string[] { "Miuku", "Akka", "Lutu", "Roope", "Aliisa", "Pirre", "Purre", "Unto", "Lillu" };
-            string[] papukaijanNimet = new string[] { "Mango", "Kaija", "Papu", "Sini", "Volcano", "Angel", "Boris", "Earl", "Egor" };
-
             int maara = -1;
 
             do
@@ -32,7 +28,7 @@ namespace OliotListaan
                     case 0:
                         Koira.Koira koira = new Koira.Koira();
                         koira.AsetaIka(random.Next(1, 15));
-                        koira.AsetaNimi(koiranNimet[random.Next(0, koiranNimet.Length - 1)]);
+                        koira.AsetaNimi(koira.Nimet[random.Next(0, koira.Nimet.Length - 1)]);
                         koira.AsetaOnLihanSyoja(random.Next(0, 1) == 1);
                         koira.AsetaMerinisakas(false);
                         Console.WriteLine(koira);
@@ -40,7 +36,7 @@ namespace OliotListaan
                     case 1:
                         Kissa.Kissa kissa = new Kissa.Kissa();
                         kissa.AsetaIka(random.Next(1, 15));
-                        kissa.AsetaNimi(kissanNimet[random.Next(0, kissanNimet.Length - 1)]);
+                        kissa.AsetaNimi(kissa.Nimet[random.Next(0, kissa.Nimet.Length - 1)]);
                         kissa.AsetaOnLihanSyoja(random.Next(0, 1) == 1);
                         kissa.AsetaMerinisakas(false);
                         Console.WriteLine(kissa);
@@ -48,7 +44,7 @@ namespace OliotListaan
                     case 2:
                         Papukaija.Papukaija papukaija = new Papukaija.Papukaija();
                         papukaija.AsetaIka(random.Next(1, 15));
-                        papukaija.AsetaNimi(papukaijanNimet[random.Next(0, papukaijanNimet.Length - 1)]);
+                        papukaija.AsetaNimi(papukaija.Nimet[random.Next(0, papukaija.Nimet.Length - 1)]);
                         papukaija.AsetaOnLihanSyoja(random.Next(0, 1) == 1);
                         Console.WriteLine(papukaija);
                         break;

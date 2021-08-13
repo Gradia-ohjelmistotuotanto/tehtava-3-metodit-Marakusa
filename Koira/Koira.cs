@@ -7,6 +7,15 @@ namespace Koira
 {
 	public class Koira : Nisakkaat.Nisakkaat
 	{
+		public readonly string[] koiranNimet = new string[] { "Musti", "Hilda", "Max", "Pontus", "Papu", "Huntti", "Leo", "Neela", "Rekku" };
+		public string[] Nimet
+		{
+			get
+			{
+				return koiranNimet;
+			}
+		}
+
 		public Koira()
 		{
 			this.AsetaNimi("Haukkuli");

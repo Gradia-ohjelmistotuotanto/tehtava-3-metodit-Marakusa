@@ -18,6 +18,8 @@ namespace Periytyminen
 
             kissa.Aantele();
 
+            kissa.LuoSukupolvia(2);
+
 
             Koira.Koira koira = new Koira.Koira();
 
